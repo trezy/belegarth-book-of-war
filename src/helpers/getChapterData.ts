@@ -1,13 +1,14 @@
 // Local imports
 import { type ChapterData } from '@/typedefs/ChapterData'
-import { getChapterNavigationData } from './getChapterNavigationData'
+import { getChapterNavigationData } from '@/helpers/getChapterNavigationData'
+import { getPublicURL } from '@/helpers/getPublicURL'
 
 
 
 
 
 export async function getChapterData(chapter: string): Promise<ChapterData> {
-	const chapterDataResponse = await fetch(`${process.env.NEXT_PUBLIC_URL}/data/chapter${chapter}.json`)
+	const chapterDataResponse = await fetch(`${getPublicURL()}/data/chapter${chapter}.json`)
 
 	if (!chapterDataResponse.ok) {
 		throw new Error('Failed to fetch data')
