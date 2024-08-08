@@ -95,17 +95,6 @@ while (lineIndex < markdownLineObjects.length) {
 			tags: [],
 		}
 
-		for (const match of regexResult.groups.body.matchAll(/(?:\d+\.)+\d+/g)) {
-			const [string] = match
-			const { index } = match
-
-			const beforeLink = rule.body.substring(0, index)
-			const linkBody = rule.body.substring(index, index + string.length)
-			const afterLink = rule.body.substring(index + string.length)
-
-			rule.body = `${beforeLink}[${linkBody}](${getRuleLink(linkBody)})${afterLink}`
-		}
-
 		for (const match of regexResult.groups.body.matchAll(/\[([\w\d]+)(?::([\w\d]+))?\]/g)) {
 			const [
 				tag,

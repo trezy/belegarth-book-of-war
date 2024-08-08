@@ -2,7 +2,7 @@
 ## Safety and Adjudication
 0. Each individual is expected to treat each other with respect and participate in fair play with safety and sportsmanship in mind. Actual violence, threats of actual violence, cheating, and arguing with marshals or other combatants disrespectfully are just a few examples of unacceptable behavior and are not allowed.
 1. Marshals: Marshals are the referees of Belegarth, responsible for rules enforcement, encouraging acceptable behavior and the inspection of both the field and equipment used.
-	1. A marshal has the authority to remove anyone from the field of battle for reasons listed in rule 1.0.
+	1. A marshal has the authority to remove anyone from the field of battle for reasons listed in rule [1.0](/chapter/1#0).
 	2. Marshals may call hit determinations at their discretion.
 	3. Marshals oversee the safe conduct of battles and therefore have the power to declare “hold” whenever a safety concern arises.
 	4. Marshals enforce the rules enumerated in Section 4 (Weapons Specifications and Checking), and determine the classifications of equipment.
@@ -15,11 +15,11 @@
 	1. Combatants must drop to a knee immediately when a hold is called and call “HOLD!” as well. They should not move or re-equip during a hold unless told to do so by a marshal.
 	2. It is illegal to call a hold or use a hold called by someone else to gain an advantage over fellow combatants.
 	3. Combatants must avoid using phrases such as “Hold the line!” or any words that could be misinterpreted as “HOLD!” during a battle.
-3. All equipment must be inspected and properly marked according to the guidelines outlined in Section 4.4 before it is used in combat.
+3. All equipment must be inspected and properly marked according to the guidelines outlined in Section [4.4](/chapter/4#4) before it is used in combat.
 4. The target of an attack has the authority to make combat hit determinations, but must defer to the discretion of marshals.
 5. Creative interpretation of the rules to gain any advantage is illegal. The marshal settles all disputes.
 6. Fighting near weapon piles, onlookers or unsafe locations is discouraged.
-7. A combatant may choose to call themselves dead and/or leave the field at any time by displaying death in an appropriate manner, rule 3.7.3.4.
+7. A combatant may choose to call themselves dead and/or leave the field at any time by displaying death in an appropriate manner, rule [3.7.3.4](/chapter/3#7.3.4).
 	1. Combatants may not re-enter the field until game-play has ceased or a marshal has allowed re-entry. This must be done in a safe manner to get clear of the battlefield boundaries and should not interfere with the ongoing battle.
 
 ## Equipment Classifications and Definitions
@@ -30,7 +30,7 @@
 	4. Class 4: Missile weapon.
 	5. Class 5: Head-only missile weapon.
 2. Defensive equipment is any item that gives combat advantage to its wielder by preventing combat hits and is unable to inflict damage on combatants.
-	1. There are two types of defensive equipment: shields and armor. All defensive equipment must meet the requirements outlined in section 4.11 and 4.12, respectively.
+	1. There are two types of defensive equipment: shields and armor. All defensive equipment must meet the requirements outlined in section [4.11](/chapter/4#11) and [4.12](/chapter/4#12), respectively.
 	2. Shields are rigid objects that are padded on the front and sides and are equipped with handles or straps.
 	3. A shield may not be constructed in a manner that would confer the advantage of unbreakable armor.
 		1. Unbreakable armor is defined as a worn shield that shapes/forms closely to more than one target area, wraps around a limb unreasonably, and/or shapes/forms closely to multiple planes of the torso.
@@ -44,13 +44,13 @@
 1. The following actions are allowable contact:
 	1. Weapon to weapon contact.
 	2. Weapon to body contact is allowed on valid target areas using striking-legal surfaces.
-	3. Body to weapon contact: Pushing, grabbing, or sweeping a combatant’s strike-legal surface results in a valid hit to the body location used for contact. Additional rules may be found in 3.12.
+	3. Body to weapon contact: Pushing, grabbing, or sweeping a combatant’s strike-legal surface results in a valid hit to the body location used for contact. Additional rules may be found in [3.12](/chapter/3#12).
 	4. Weapon to shield contact is allowed.
 	5. Shield to weapon contact: Shields may be used to strike, deflect, move or pin a combatant’s weapon.
 	6. Shield to shield contact: Shields may be used to strike, deflect, move, or pin a combatant’s shield.
-	7. Shield to body contact: Shields may be used to strike, deflect, move, or pin a combatant’s body other than what is mentioned in 3.2.
+	7. Shield to body contact: Shields may be used to strike, deflect, move, or pin a combatant’s body other than what is mentioned in [3.2](/chapter/3#2).
 	8. Body to shield contact: Combatants may manipulate another combatant’s shield with their body, including feet, knees, shoulders, hands, and elbows.
-	9. Body to Body contact: Combatants may make contact with other combatants in accordance to rule 3.12.
+	9. Body to Body contact: Combatants may make contact with other combatants in accordance to rule [3.12](/chapter/3#12).
 2. Disallowed contact:
 	1. Head contact from Class 1, 2, 3 weapons or shields.
 		1. Feints towards the head from Class 1, 2, 3 weapons or shields are discouraged.
@@ -79,7 +79,7 @@
 		2. Combatants striking with a two handed swing should call “Two” **or the appropriate tape color as indicated on the weapon** as they strike. [CHANGED:2021]
 	3. Class 3 (thrusting) weapons wielded one-handed cause one hit of damage to an unarmored target area, and have no affect against an armored area.
 		1. When used two handed, Class 3 weapons bypass armor.
-		2. Combatants striking with a two handed stab should call “Double” as they strike. See 3.5.2.1 for two-handed definition.
+		2. Combatants striking with a two handed stab should call “Double” as they strike. See [3.5.2.1](/chapter/3#5.2.1) for two-handed definition.
 	4. Class 4 (missile) weapons cause one hit to a target area and bypass all armor except head armor. A Class 4 weapon striking an armored portion of the head area causes no hit.
 	5. Class 5 (head only missile) weapons cause 1 hit to an unarmored head area. A Class 5 weapon striking an armored portion of the head area causes no hit.
 	6. The head is a legal target area for Arrows/Bolts, Thrown Javelins, and all Class 5 weapons
@@ -128,7 +128,7 @@
 		1. Attempting to gain a combat advantage over “living” players by appearing dead or declaring death and then returning to play is illegal. (e.g. sitting down appearing to look dead and waiting for someone to draw near.)
 		2. Combatants cannot return to life or otherwise undo a bad call unless otherwise specified by a marshal to do so.
 		3. Combatants may communicate “late” when their hit lands after their death, nullifying the damage from the strike to other combatants.
-		4. A combatant may indicate that they are dead by placing a weapon or arm on their head and loudly calling “DEAD”. This is only allowed when dead combatants are attempting to exit the field as instructed to by a marshal, or to call themselves dead, as in rule 1.7.
+		4. A combatant may indicate that they are dead by placing a weapon or arm on their head and loudly calling “DEAD”. This is only allowed when dead combatants are attempting to exit the field as instructed to by a marshal, or to call themselves dead, as in rule [1.7](/chapter/1#7).
 		5. Dropping weapon(s) is not a valid show of death.
 		6. If a combatant is dead, they must look dead and make it clear to those around them that they are dead. (e.g. placing an elbow on the ground while lying down).
 		7. Dead combatants must not talk to the living unless to indicate a potential safety hazard.
@@ -144,7 +144,7 @@
 10. Shields:
 	1. Shields are destroyed by two heavy, solid, two-handed strikes from a Class 2 weapon.
 		1. Subsequent strikes to a destroyed shield continue into the target area on which the shield is worn. For example, if a shield on an arm is broken by two sufficient Class 2 hits and is not dropped, the next hit would be to the arm and, after that, to the body.
-	2. Heavy strikes are defined as a stronger than normal strike, as defined in 3.4.2 and 3.5.2.1.
+	2. Heavy strikes are defined as a stronger than normal strike, as defined in [3.4.2](/chapter/3#4.2) and [3.5.2.1](/chapter/3#5.2.1).
 	3. Shields may be used in any reasonable manner and still be considered a shield.
 	4. Only one shield may be used by a combatant at a time.
 	5. The wielder of the shield determines if a shield breaking hit is sufficient.
@@ -161,10 +161,10 @@
 		5. While performing a shield bash or check, a combatant may not make intentional contact with another combatant’s head or neck.
 		6. Bashes must target a combatant’s center of mass, not knees or legs.
 		7. It is illegal to bash or check combatants that have bows and/or arrows/bolts.
-		8. It is illegal to shield bash, as defined by 3.11.4.1, a combatant with a disabled leg.
-		8. It is illegal to shield bash, as defined by 3.11.4.1, a combatant with a disabled leg. [ADDED:2021]
-		9. It is legal to shield check, as defined by 3.11.4.2, a combatant with a disabled leg.
-		9. It is legal to shield check, as defined by 3.11.4.2, a combatant with a disabled leg. [ADDED:2021]
+		8. It is illegal to shield bash, as defined by [3.11.4.1](/chapter/3#11.4.1), a combatant with a disabled leg.
+		8. It is illegal to shield bash, as defined by [3.11.4.1](/chapter/3#11.4.1), a combatant with a disabled leg. [ADDED:2021]
+		9. It is legal to shield check, as defined by [3.11.4.2](/chapter/3#11.4.2), a combatant with a disabled leg.
+		9. It is legal to shield check, as defined by [3.11.4.2](/chapter/3#11.4.2), a combatant with a disabled leg. [ADDED:2021]
 	5. Shield braces, edging, and bumping:
 		1. A shield brace is when a combatant plants their feet while holding or placing their shield in front of a moving combatant.
 		2. A shield bump is incidental shield contact against a combatant’s body or equipment when the intent is not to knock the combatant over.
@@ -188,13 +188,13 @@
 		3. A combatant wearing chain armor or mostly (2/3 or more) metal composite armor may grapple combatants wearing mostly metal composite, chain or plate armor.
 		4. A combatant wearing plate armor may not initiate a grapple.
 		5. A combatant wearing plastic safety equipment is treated as leather armor for grappling purposes only.
-		6. Groin protection, protective sports bra inserts, and safety glasses are exempt from 3.12.4.5.
-		6. Groin protection ~~is~~**, protective sports bra inserts, and safety glasses are** exempt from 3.12.4.5. [CHANGED:2021]
+		6. Groin protection, protective sports bra inserts, and safety glasses are exempt from [3.12.4.5](/chapter/3#12.4.5).
+		6. Groin protection ~~is~~**, protective sports bra inserts, and safety glasses are** exempt from [3.12.4.5](/chapter/3#12.4.5). [CHANGED:2021]
 	5. A grappler must maintain positive control of the combatant when attempting to bring a grappled combatant to the ground.
 		1. Positive Control is defined as a grappler bearing some of a combatant’s weight and speed when bringing them to the ground.
 	6. Combatants with bows and/or arrows/bolts may not initiate grapples or be grappled.
 		1. Combatants may not grasp a combatant’s bow or arrows/bolts with the intent to control their direction or prevent them from using this equipment.
-	7. Combatants may grab their weapons any way they wish, including the blade/striking surface. This is an exemption to the anvilling rule (3.5.9).
+	7. Combatants may grab their weapons any way they wish, including the blade/striking surface. This is an exemption to the anvilling rule ([3.5.9](/chapter/3#5.9)).
 		1. If holding the weapon from a striking surface, a combatant cannot attack to deal damage to other combatants in an unsafe manner (e.g. punching and/or gripping so that the handle or pommel is swung towards an opponent).
 		1. If holding the weapon from a striking surface, a combatant cannot attack to deal damage to other combatants in an unsafe manner (e.g. punching and/or gripping so that the handle or pommel is swung towards an opponent). [ADDED:2023]
 	8. Gripping the striking surface of a combatant’s weapon results in the disabling of that limb.
@@ -251,7 +251,7 @@
 		1. Hafted Class 1 weapons must have incidental padding that extends at least 6 inches (15.24 cm) from the striking surface, or to the handle, whichever is shorter, and courtesy padding that extends from the bottom of the incidental padding to the handle.
 		2. Two-handed hafted Class 2 only and Class 2/Class 3 combined weapons must have incidental padding that extends at least 12 inches (30.48 cm) from the striking surface or to the handle, whichever is shorter, and courtesy padding that extends from the bottom of the incidental padding to the handle.
 	5. Handles must be contiguous. It is not allowable to have a handle, courtesy padding, and then an additional unpadded handle closer to the striking surface(s).
-	6. The only exception to this rule are double-ended weapons with specifications that conform to 4.9.6.
+	6. The only exception to this rule are double-ended weapons with specifications that conform to [4.9.6](/chapter/4#9.6).
 3. Tape may be used on striking surfaces under the cloth covering. However, the tape may not cause the weapon to hit too hard as determined by a hit test.
 4. Marking: Weapons must be marked with the appropriate color(s) of tape to denote their classifications. This marking tape must be placed in a manner so that combatants and marshals may easily see it. Unmarked weapons will only be checked as Class 1 weapons.
 	1. Class 1 weapons are marked with blue tape on either the pommel or handle.
@@ -309,7 +309,7 @@
 		3. The minimum length is four (4) feet (1.22 m).
 		4. The maximum length is seven (7) feet (2.13 m).
 		5. Must have courtesy padded along the entire length.
-		6. Must flex less than ninety (90) degrees. This is an exception to rule 4.6.
+		6. Must flex less than ninety (90) degrees. This is an exception to rule [4.6](/chapter/4#6).
 		7. Must have a yellow cover on the striking surface of the weapon.
 	8. Archery Restrictions:
 		1. Arrows and bolts must conform to the stated arrow construction requirements and are exempt from non-arrow weapon construction requirements.
