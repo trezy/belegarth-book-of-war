@@ -1,5 +1,5 @@
 // Module imports
-import { PropsWithChildren } from 'react'
+import { MouseEventHandler, PropsWithChildren } from 'react'
 
 
 
@@ -9,6 +9,7 @@ import { PropsWithChildren } from 'react'
 type Props = PropsWithChildren<{
 	className?: string,
 	href: string,
+	onClick?: MouseEventHandler<HTMLAnchorElement>,
 	rel?: string,
 }>
 
@@ -21,6 +22,7 @@ export function ExternalLink(props: Props) {
 		children,
 		className = '',
 		href,
+		onClick,
 		rel = '',
 	} = props
 
@@ -29,6 +31,7 @@ export function ExternalLink(props: Props) {
 			{...props}
 			className={className}
 			href={href}
+			onClick={onClick}
 			rel={`noopener noreferrer ${rel}`}
 			target={'_blank'}>
 			{children}

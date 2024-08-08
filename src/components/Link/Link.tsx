@@ -1,5 +1,5 @@
 // Module imports
-import { type PropsWithChildren } from 'react'
+import { MouseEventHandler, type PropsWithChildren } from 'react'
 import classnames from 'classnames'
 import NextLink from 'next/link'
 import PropTypes from 'prop-types'
@@ -21,6 +21,7 @@ type Props = PropsWithChildren<{
 	className?: string,
 	href: string,
 	noStyle?: boolean,
+	onClick?: MouseEventHandler<HTMLAnchorElement>,
 }>
 
 
@@ -33,6 +34,7 @@ export function Link(props: Props) {
 		className = '',
 		href,
 		noStyle,
+		onClick,
 	} = props
 
 	const compiledClassName = classnames(styles['link'], className, {
@@ -43,7 +45,8 @@ export function Link(props: Props) {
 		return (
 			<NextLink
 				className={compiledClassName}
-				href={href}>
+				href={href}
+				onClick={onClick}>
 				{children}
 			</NextLink>
 		)
@@ -52,7 +55,8 @@ export function Link(props: Props) {
 	return (
 		<ExternalLink
 			className={compiledClassName}
-			href={href}>
+			href={href}
+			onClick={onClick}>
 			{children}
 		</ExternalLink>
 	)

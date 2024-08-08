@@ -3,6 +3,7 @@
 // Module imports
 import {
 	ChangeEvent,
+	MouseEventHandler,
 	useCallback,
 	useEffect,
 	useRef,
@@ -40,6 +41,10 @@ export function Search() {
 	}))
 
 	const handleChange = useCallback((event: ChangeEvent<HTMLInputElement>) => setQuery(event.target.value), [])
+	const handleClick = useCallback<MouseEventHandler>(event => {
+		setQuery('')
+		setResults([])
+	}, [])
 
 	useEffect(() => {
 		if (!isLoading && !isLoaded) {
@@ -65,7 +70,8 @@ export function Search() {
 			<input
 				onChange={handleChange}
 				placeholder={'Search'}
-				type={'search'} />
+				type={'search'}
+				value={query} />
 
 			<ol className={styles['search-results']}>
 				{results.map((result, index) => (
@@ -74,7 +80,8 @@ export function Search() {
 						className={styles['search-result']}>
 						<Link
 							href={result.item.href}
-							noStyle>
+							noStyle
+							onClick={handleClick}>
 							<span className={classnames({
 								[styles['legacy-rule']]: result.item.tags.length,
 							})}>
