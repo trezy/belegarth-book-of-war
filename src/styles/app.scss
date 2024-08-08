@@ -14,6 +14,7 @@
 \******************************************************************************/
 
 @import './variables/colors';
+@import './variables/ui-scale';
 
 
 
@@ -25,6 +26,7 @@
 
 :root {
 	--background-color: var(--palette-white);
+	--background-accent-color: var(--palette-dark-grey);
 	--foreground-color: var(--palette-black);
 }
 
@@ -66,8 +68,9 @@ html {
 }
 
 body {
-	align-items: center;
-	display: flex;
+	justify-items: center;
+	display: grid;
+	grid-template-rows: auto 1fr;
 	flex-direction: column;
 	margin: 0;
 }

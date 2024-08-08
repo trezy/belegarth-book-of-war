@@ -2,5 +2,5 @@
 	display: grid;
 	gap: 1rem;
 	grid-template-columns: 1fr 3fr;
-	max-width: 120ch;
+	max-width: var(--max-width);
 }

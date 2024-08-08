@@ -28,20 +28,12 @@
 }
 
 .link {
+	background-color: var(--background-color);
 	position: relative;
+	transition-duration: 0.1s;
+	transition-property: background-color;
 
-	&:after {
-		background-color: var(--foreground-color);
-		content: '';
-		inset: 0;
-		opacity: 0;
-		position: absolute;
-		transition-duration: 0.1s;
-		transition-property: opacity;
-		z-index: -1;
-	}
-
-	&:hover:after {
-		opacity: 0.1;
+	&:hover {
+		background-color: var(--background-accent-color);
 	}
 }

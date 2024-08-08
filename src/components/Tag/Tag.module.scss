@@ -1,18 +1,10 @@
 .tag {
-	background-color: var(--background-color);
+	background-color: var(--background-accent-color);
 	border-radius: 0.3rem;
 	font-size: 0.8em;
 	overflow: hidden;
 	padding: 0.4rem;
 	position: relative;
-
-	&:after {
-		background-color: var(--foreground-color);
-		content: '';
-		inset: 0;
-		opacity: 0.2;
-		position: absolute;
-		transition-duration: 0.1s;
-		transition-property: opacity;
-	}
+	transition-duration: 0.1s;
+	transition-property: background-color;
 }
