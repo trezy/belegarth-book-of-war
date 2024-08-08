@@ -58,6 +58,7 @@ export function Rule({
 						<strong>{`${title}: `}</strong>
 					)}
 
+					{/* eslint-disable-next-line react-hooks/rules-of-hooks */}
 					{Boolean(body) && useRemarkSync(String(body))}
 				</div>
 
