@@ -1,0 +1,47 @@
+.heading {
+	letter-spacing: 1px;
+
+	&.level-2 {
+		// font-family: 'neue-haas-grotesk-display', sans-serif;
+		font-size: 60px;
+		line-height: 72px;
+
+		@media (max-width: 900px) {
+			font-size: 46px;
+			line-height: 60px;
+		}
+
+		@media (max-width: 400px) {
+			font-size: 30px;
+			line-height: 40px;
+		}
+	}
+
+	&.level-3 {
+		// font-family: 'neue-haas-grotesk-display', sans-serif;
+		font-size: 32px;
+
+		@media (max-width: 900px) {
+			font-size: 22px;
+		}
+	}
+
+	&.level-4 {
+		// font-family: 'neue-haas-grotesk-display', sans-serif;
+		font-size: 26px;
+
+		@media (max-width: 900px) {
+			font-size: 20px;
+			font-weight: 600;
+		}
+	}
+
+	&.level-5 {
+		font-size: 24px;
+		font-weight: 600;
+
+		@media (max-width: 900px) {
+			font-size: 18px;
+		}
+	}
+}

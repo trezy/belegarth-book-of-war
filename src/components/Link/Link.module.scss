@@ -1,0 +1,25 @@
+.link {
+	color: var(--palette-blue);
+	display: inline-flex;
+	position: relative;
+	text-decoration: none;
+
+	&:not(.no-style) {
+		&:after {
+			background-color: var(--palette-blue);
+			content: '';
+			display: block;
+			height: 0.1rem;
+			left: 0;
+			position: absolute;
+			right: 100%;
+			top: calc(2ex + 0.2rem);
+			transition-duration: 0.1s;
+			transition-property: right;
+		}
+
+		&:hover:after {
+			right: 0;
+		}
+	}
+}

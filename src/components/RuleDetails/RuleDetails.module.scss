@@ -1,0 +1,22 @@
+.rule-details-wrapper {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	position: fixed;
+	inset: 0;
+
+	&:after {
+		background-color: var(--background-color);
+		content: '';
+		inset: 0;
+		opacity: 0.8;
+		position: absolute;
+		z-index: -1;
+	}
+}
+
+.rule-details {
+	background-color: var(--background-color);
+	padding: 2rem;
+	width: 80%;
+}

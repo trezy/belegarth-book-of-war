@@ -1,0 +1,73 @@
+/******************************************************************************\
+  Mixins
+\******************************************************************************/
+
+@import './mixins/generateColourCustomProperties';
+@import './mixins/generateColourCustomPropertiesFromColour';
+
+
+
+
+
+/******************************************************************************\
+  Variables
+\******************************************************************************/
+
+@import './variables/colors';
+
+
+
+
+
+/******************************************************************************\
+  Root styles
+\******************************************************************************/
+
+:root {
+	--background-color: var(--palette-white);
+	--foreground-color: var(--palette-black);
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--background-color: var(--palette-black);
+		--foreground-color: var(--palette-white);
+	}
+
+	html {
+		color-scheme: dark;
+	}
+}
+
+* {
+	box-sizing: border-box;
+
+	@media (prefers-reduced-motion: reduce) {
+		&,
+		&:after,
+		&:before {
+			animation-duration: 0.0001s !important;
+			animation-delay: 0.0001s !important;
+			transition-duration: 0.0001s !important;
+			transition-delay: 0.0001s !important;
+		}
+	}
+}
+
+body,
+html {
+	min-height: 100vh;
+}
+
+html {
+	background-color: var(--background-color);
+	color: var(--foreground-color);
+	scroll-behavior: smooth;
+}
+
+body {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+}

@@ -1,0 +1,19 @@
+@use 'sass:list';
+
+$colors: (
+	"black": #1a1a1a,
+	"blue": #66bdff,
+	"white": #ffffff,
+);
+$names: ();
+$values: ();
+
+@each $name, $value in $colors {
+	$names: list.append($names, $name);
+	$values: list.append($values, $value);
+}
+
+:export {
+	names: $names;
+	values: $values;
+}

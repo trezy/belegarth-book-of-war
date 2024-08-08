@@ -1,0 +1,30 @@
+.pagination {
+	display: grid;
+	grid-template-areas: 'previous . next';
+	grid-template-columns: 3fr 1fr 3fr;
+	width: 100%;
+
+	.next,
+	.previous {
+		border-color: var(--foreground-color);
+		border-style: solid;
+		border-width: 0.1rem;
+		display: flex;
+		flex-direction: column;
+		font-size: 0.8em;
+		padding: 1rem;
+
+		.label {
+			font-size: 0.8em;
+		}
+	}
+
+	.next {
+		grid-area: next;
+		text-align: right;
+	}
+
+	.previous {
+		grid-area: previous;
+	}
+}

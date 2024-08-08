@@ -1,0 +1,15 @@
+@use 'sass:list';
+
+@use '../data/colors.module' as colors;
+@use '../mixins/generateColourCustomPropertiesFromColour';
+
+:root {
+	--hue-shift: 0deg;
+
+	@each $name in colors.$names {
+		$index: list.index(colors.$names, $name);
+		$value: list.nth(colors.$values, $index);
+
+		@include generateColourCustomPropertiesFromColour('palette-#{$name}', $value);
+	}
+}

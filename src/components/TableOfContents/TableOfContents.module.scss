@@ -1,0 +1,47 @@
+.table-of-contents {
+	align-self: start;
+	position: sticky;
+	top: 2rem;
+
+	a {
+		--indentation: 1rem;
+		--horizontal-padding: 0.5rem;
+		--vertical-padding: 0.5rem;
+
+		display: block;
+		padding: var(--vertical-padding) var(--horizontal-padding);
+		padding-left: calc(var(--horizontal-padding) + var(--indentation));
+		text-indent: calc(var(--indentation) * -1);
+	}
+
+	li {
+		list-style: none;
+	}
+
+	ol {
+		padding: 0;
+	}
+}
+
+.is-active {
+	font-weight: bold;
+}
+
+.link {
+	position: relative;
+
+	&:after {
+		background-color: var(--foreground-color);
+		content: '';
+		inset: 0;
+		opacity: 0;
+		position: absolute;
+		transition-duration: 0.1s;
+		transition-property: opacity;
+		z-index: -1;
+	}
+
+	&:hover:after {
+		opacity: 0.1;
+	}
+}

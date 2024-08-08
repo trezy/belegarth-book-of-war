@@ -1,0 +1,11 @@
+.rule-list {
+	column-gap: 1rem;
+	display: grid;
+	grid-template-columns: auto 1fr;
+	margin-top: 1rem;
+	row-gap: 1rem;
+
+	dd {
+		margin: 0;
+	}
+}

@@ -1,0 +1,13 @@
+@use 'generateColourCustomProperties';
+
+@mixin generateColourCustomPropertiesFromColour($name, $color) {
+	@include generateColourCustomProperties(
+		$name,
+		hue($color),
+		saturation($color),
+		lightness($color),
+		red($color),
+		green($color),
+		blue($color),
+	)
+}

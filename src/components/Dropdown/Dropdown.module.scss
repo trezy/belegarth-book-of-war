@@ -1,0 +1,8 @@
+.dropdown {
+}
+
+.dropdown-container {
+	&:not(:hover) .dropdown {
+		display: none;
+	}
+}
